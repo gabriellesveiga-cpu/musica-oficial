@@ -1,0 +1,703 @@
+[
+  {
+    "nome": "100mil",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/100mil.mp3"
+  },
+  {
+    "nome": "10CARROS",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/10CARROS.mp3"
+  },
+  {
+    "nome": "202",
+    "artista": "Kweller, Enzo Cello, Thomie, prodbyeros",
+    "album": "202",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2731a05b892121d5f2f3fdf48ff",
+    "arquivo": "./Músicas/202.mp3",
+    "spotifyId": "3imzmQM2DPPVBLMiBBexRL",
+    "spotifyUrl": "https://open.spotify.com/track/3imzmQM2DPPVBLMiBBexRL"
+  },
+  {
+    "nome": "44",
+    "artista": "Mc Luanna, Marcos Beatman, Mello Santana",
+    "album": "44",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273a3b77d2c157fe775b7eaaaa1",
+    "arquivo": "./Músicas/44.mp3",
+    "spotifyId": "0YQbqS0oevDQim3FHCovW3",
+    "spotifyUrl": "https://open.spotify.com/track/0YQbqS0oevDQim3FHCovW3"
+  },
+  {
+    "nome": "50tons",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/50tons.mp3"
+  },
+  {
+    "nome": "Agudo Mágico 3",
+    "artista": "MC K.K, Dj TG Beats, Dj Aurélio, MC Lipivox, Authentic Records",
+    "album": "Agudo Mágico 3",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27376323d3f59ac7fc741e9d2ee",
+    "arquivo": "./Músicas/Agudo Mágico 3.mp3",
+    "spotifyId": "6Hio4nlyWL2WBL8nYlbuGt",
+    "spotifyUrl": "https://open.spotify.com/track/6Hio4nlyWL2WBL8nYlbuGt"
+  },
+  {
+    "nome": "Amina",
+    "artista": "Tasha & Tracie, retroboy",
+    "album": "Amina",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273e18c81b777295c70239eb51e",
+    "arquivo": "./Músicas/amina.mp3",
+    "spotifyId": "54jy0gE24JQyYa7SqK75CL",
+    "spotifyUrl": "https://open.spotify.com/track/54jy0gE24JQyYa7SqK75CL"
+  },
+  {
+    "nome": "aquarianonato",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/aquarianonato.mp3"
+  },
+  {
+    "nome": "Aquecimento do Anjim",
+    "artista": "Mc Anjim, DJ Sammer",
+    "album": "Aquecimento do Anjim",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273f70d481403749c43828e5407",
+    "arquivo": "./Músicas/Aquecimento do Anjim.mp3",
+    "spotifyId": "5qgrYlUR6gLDaOPP6oszpV",
+    "spotifyUrl": "https://open.spotify.com/track/5qgrYlUR6gLDaOPP6oszpV"
+  },
+  {
+    "nome": "arrogancia",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/arrigancia.mp3"
+  },
+  {
+    "nome": "baforandoolaca",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/baforandoolaca.mp3"
+  },
+  {
+    "nome": "bebetasolta",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/bebetasolta.mp3"
+  },
+  {
+    "nome": "Capa De Revista",
+    "artista": "Anitta",
+    "album": "Ensaios Da Anitta",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273de417d1ffcbd0042639473e3",
+    "arquivo": "./Músicas/Capa De Revista.mp3",
+    "spotifyId": "0PNwMRlZgwoWVe0idfGQPH",
+    "spotifyUrl": "https://open.spotify.com/track/0PNwMRlZgwoWVe0idfGQPH"
+  },
+  {
+    "nome": "Chama o Coveiro",
+    "artista": "Mc Delux, DJ Guih Da ZO",
+    "album": "Chama o Coveiro",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273d045fed929c70688b38fffe9",
+    "arquivo": "./Músicas/Chama o coveiro.mp3",
+    "spotifyId": "6RjeZMiAO0lgdsbk936HA8",
+    "spotifyUrl": "https://open.spotify.com/track/6RjeZMiAO0lgdsbk936HA8"
+  },
+  {
+    "nome": "cocotafeia",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/cocotafeia.mp3"
+  },
+  {
+    "nome": "cognacqueen",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/cognacqueen.mp3"
+  },
+  {
+    "nome": "coracaodegelo",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/coracaodegelo.mp3"
+  },
+  {
+    "nome": "Eles São Fracos",
+    "artista": "Slipmami, Rafu",
+    "album": "Até aqui, Slip nos ajudou",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273b6cdc1afb25742f8f6ff5081",
+    "arquivo": "./Músicas/Eles São Fracos.mp3",
+    "spotifyId": "4ZMkVpeTbQUO2fO6MRd8BQ",
+    "spotifyUrl": "https://open.spotify.com/track/4ZMkVpeTbQUO2fO6MRd8BQ"
+  },
+  {
+    "nome": "ExtraL (feat. Doechii)",
+    "artista": "JENNIE, Doechii",
+    "album": "ExtraL (feat. Doechii)",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2732bb154bab4795dd2a8072579",
+    "arquivo": "./Músicas/extral.mp3",
+    "spotifyId": "7AKwWqnoMmvCqBQtcdIECG",
+    "spotifyUrl": "https://open.spotify.com/track/7AKwWqnoMmvCqBQtcdIECG"
+  },
+  {
+    "nome": "Extraordinária",
+    "artista": "Ebony",
+    "album": "KM2",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273dfa8db04f7ad181308e8a2b3",
+    "arquivo": "./Músicas/extraordinaria.mp3",
+    "spotifyId": "3WC5FPpPuiU8eauNnyY8dK",
+    "spotifyUrl": "https://open.spotify.com/track/3WC5FPpPuiU8eauNnyY8dK"
+  },
+  {
+    "nome": "Felina",
+    "artista": "WIU, MC Ryan SP",
+    "album": "Felina",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273ee23d31b01fd56865083522d",
+    "arquivo": "./Músicas/felina.mp3",
+    "spotifyId": "2orGm2E68ODFYOURjaES62",
+    "spotifyUrl": "https://open.spotify.com/track/2orGm2E68ODFYOURjaES62"
+  },
+  {
+    "nome": "Fica só olhando",
+    "artista": "Anitta",
+    "album": "Anitta",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273b1bd3ec4ceb6f5ffbf3a7de7",
+    "arquivo": "./Músicas/Fica só olhando.mp3",
+    "spotifyId": "4jIhTSgq472p9JmFMt5AFj",
+    "spotifyUrl": "https://open.spotify.com/track/4jIhTSgq472p9JmFMt5AFj"
+  },
+  {
+    "nome": "Fofoca",
+    "artista": "Mc Luanna, Bvga Beatz, Mello Santana, Galdino",
+    "album": "Sexto Sentido",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27341807a1c22c0fc0ad5da5b8c",
+    "arquivo": "./Músicas/fofoca.mp3",
+    "spotifyId": "0Wy3fjbBiIuCIF8UDzADov",
+    "spotifyUrl": "https://open.spotify.com/track/0Wy3fjbBiIuCIF8UDzADov"
+  },
+  {
+    "nome": "Formation",
+    "artista": "Beyoncé",
+    "album": "Lemonade",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2738db37bc9a58543471bee78c5",
+    "arquivo": "./Músicas/Formation.mp3",
+    "spotifyId": "6g0Orsxv6glTJCt4cHsRsQ",
+    "spotifyUrl": "https://open.spotify.com/track/6g0Orsxv6glTJCt4cHsRsQ"
+  },
+  {
+    "nome": "FXCK UP THE WORLD (Vixi Solo Version)",
+    "artista": "LISA",
+    "album": "Alter Ego",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27395ce3d848f4e452489d4a12c",
+    "arquivo": "./Músicas/FXCK UP THE WORLD.mp3",
+    "spotifyId": "6a3HxWNiBhr3tNYoqaCbLt",
+    "spotifyUrl": "https://open.spotify.com/track/6a3HxWNiBhr3tNYoqaCbLt"
+  },
+  {
+    "nome": "Hot as Ice",
+    "artista": "Britney Spears",
+    "album": "Blackout",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273d0a8bfe18f25429d76886b1e",
+    "arquivo": "./Músicas/Hot as Ice.mp3",
+    "spotifyId": "6iqwOVXYuYQYCaQ0ljcans",
+    "spotifyUrl": "https://open.spotify.com/track/6iqwOVXYuYQYCaQ0ljcans"
+  },
+  {
+    "nome": "I Wish I Was Your Girlfriend",
+    "artista": "Sixty Watt Bayonets",
+    "album": "I Wish I Was Your Girlfriend",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2732001b517a76d7e86889a30e4",
+    "arquivo": "./Músicas/i wish i was your girl.mp3",
+    "spotifyId": "7K24kmpxbBCeSCyQXyPfwB",
+    "spotifyUrl": "https://open.spotify.com/track/7K24kmpxbBCeSCyQXyPfwB"
+  },
+  {
+    "nome": "IRMÃS DE PAU - QUEIMANDO ICE FEAT. DUQUESA [PROD. BRUNOSO] VISUALIZER OFICIAL",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/IRMÃS DE PAU - QUEIMANDO ICE FEAT. DUQUESA [PROD. BRUNOSO] VISUALIZER OFICIAL.mp3"
+  },
+  {
+    "nome": "issonaosaidaminhacabeca",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/issonaosaidaminhacabeca.mp3"
+  },
+  {
+    "nome": "jogapraraul",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/jogapraraul.mp3"
+  },
+  {
+    "nome": "Portal Dos Desejos: Faça Seus Pedidos Ao Universo #LeiDaAtração #ParaVocê #UniversoResponde #SoundPortal #VibePositiva #EnergiaBoa #PazInterior",
+    "artista": "Guardiões Da Luz, Do Amor",
+    "album": "SOUND PORTAL - MANIFESTE SEUS DESEJOS #EnergiaPositiva #Gratidão #ManifestandoSonhos #PoderdaMente #QuantumLeap",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273a83558aa601d181093b4e801",
+    "arquivo": "./Músicas/leidaatracao.mp3",
+    "spotifyId": "2apnfbWgNfIF7vFph4weAE",
+    "spotifyUrl": "https://open.spotify.com/track/2apnfbWgNfIF7vFph4weAE"
+  },
+  {
+    "nome": "likeJENNIE",
+    "artista": "常在情",
+    "album": "爱的可能",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273ce2bdc3a567e301d25b64d43",
+    "arquivo": "./Músicas/likejennie.mp3",
+    "spotifyId": "6YgvQEAte71xtUF3EiKkp9",
+    "spotifyUrl": "https://open.spotify.com/track/6YgvQEAte71xtUF3EiKkp9"
+  },
+  {
+    "nome": "Lucky Girl Syndrome",
+    "artista": "ILLIT",
+    "album": "SUPER REAL ME",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273f037c5fb9de6c78726cb8e2c",
+    "arquivo": "./Músicas/Lucky Girl Syndrome.mp3",
+    "spotifyId": "2kIUILBPlz4exX9xIFS275",
+    "spotifyUrl": "https://open.spotify.com/track/2kIUILBPlz4exX9xIFS275"
+  },
+  {
+    "nome": "#LuzDoLuar",
+    "artista": "whiteboycharge",
+    "album": "#LuzDoLuar",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273e6e2be47f6a857449b79042f",
+    "arquivo": "./Músicas/luzdoluar.mp3",
+    "spotifyId": "0NL2jXG9CMl3lTxVJQ7qT4",
+    "spotifyUrl": "https://open.spotify.com/track/0NL2jXG9CMl3lTxVJQ7qT4"
+  },
+  {
+    "nome": "Esse é o dj do baile famoso machuca xt",
+    "artista": "DJ Naldinho do Cdc",
+    "album": "Esse é o dj do baile famoso machuca xt",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27345097917c6b446013d014c34",
+    "arquivo": "./Músicas/MACHUCA XT - ESSE É O DJ DO BAILE FAMOSO MACHUCA XT.mp3",
+    "spotifyId": "5VoAKAXvwc4KVuiiON5G0g",
+    "spotifyUrl": "https://open.spotify.com/track/5VoAKAXvwc4KVuiiON5G0g"
+  },
+  {
+    "nome": "magicodosom",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/magicodosom.mp3"
+  },
+  {
+    "nome": "MANO ZAFE MANO ZAFE, MANO ÍNDIO EU VOU CAIR DE TRETA x FUNK DO TIK TOK (Clipe Of",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/MANO ZAFE MANO ZAFE, MANO ÍNDIO EU VOU CAIR DE TRETA x FUNK DO TIK TOK (Clipe Of.mp3"
+  },
+  {
+    "nome": "Mantra",
+    "artista": "JENNIE",
+    "album": "Ruby",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273dcf27dec5e479b2e39c4c993",
+    "arquivo": "./Músicas/Mantra.mp3",
+    "spotifyId": "1kUyOJb3fzUo8r0OCz5SQk",
+    "spotifyUrl": "https://open.spotify.com/track/1kUyOJb3fzUo8r0OCz5SQk"
+  },
+  {
+    "nome": "Mc GW - Ela é Bissexual (DJ Mano Loost)",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/Mc GW - Ela é Bissexual (DJ Mano Loost).mp3"
+  },
+  {
+    "nome": "MC JUNINHO 22 - É O SAFADAO DO BIGODINHO ( Clipe Oficial )",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/MC JUNINHO 22 - É O SAFADAO DO BIGODINHO ( Clipe Oficial ).mp3"
+  },
+  {
+    "nome": "MC TH & Mc Agabê - Brotou No Baile Pra Dar Pra Envolvido (Clipe Oficial TikTok) ",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/MC TH & Mc Agabê - Brotou No Baile Pra Dar Pra Envolvido (Clipe Oficial TikTok) .mp3"
+  },
+  {
+    "nome": "Me Desculpa Pai, Me Desculpa Mãe Remix (feat. Dj Digo Beat & Way Produtora)",
+    "artista": "MC Bruna Alves, Dj Digo Beat, Way Produtora",
+    "album": "Relacionamento",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27308ed207d75d691cd77bc2755",
+    "arquivo": "./Músicas/Me Desculpa Pai, Me Desculpa Mãe (feat. Dj Digo Beat & Way Produtora).mp3",
+    "spotifyId": "3NiOrCOCsXBHQwfAdMXDUW",
+    "spotifyUrl": "https://open.spotify.com/track/3NiOrCOCsXBHQwfAdMXDUW"
+  },
+  {
+    "nome": "MeigaeAbusada",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/MeigaeAbusada.mp3"
+  },
+  {
+    "nome": "Meninamá",
+    "artista": "Único Pedro",
+    "album": "Canções De Um Phone, Vol. 1 - C.D.P",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273963929b11ae13f0572701247",
+    "arquivo": "./Músicas/MENINAMÁ.mp3",
+    "spotifyId": "6W34bpQ280gdKcqT9McWPo",
+    "spotifyUrl": "https://open.spotify.com/track/6W34bpQ280gdKcqT9McWPo"
+  },
+  {
+    "nome": "Mete Com Força e Com Talento",
+    "artista": "Mc Nick, CL FAIXA PRETA",
+    "album": "Mete Com Força e Com Talento",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2732dc737fd4c51bc5f3b760bfd",
+    "arquivo": "./Músicas/Mete Com Força e Com Talento.mp3",
+    "spotifyId": "4PI7s7HG4FPlS34RYKvvfa",
+    "spotifyUrl": "https://open.spotify.com/track/4PI7s7HG4FPlS34RYKvvfa"
+  },
+  {
+    "nome": "MONTAGEM - BEAT ASSOMBRA FIEL 1.0 - AVISA PRA FIEL QUE HOJE ELE TÁ COM AMANTE [ ",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/MONTAGEM - BEAT ASSOMBRA FIEL 1.0 - AVISA PRA FIEL QUE HOJE ELE TÁ COM AMANTE [ .mp3"
+  },
+  {
+    "nome": "MONTAGEM - DESCE TALARICA",
+    "artista": "DJ GUIGA, MC BRUNINHO NB",
+    "album": "MONTAGEM - DESCE TALARICA",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2738452110c9882b96803bc0cc2",
+    "arquivo": "./Músicas/MONTAGEM - DESCE TALARICA ☯️ - DJ GUIGA.mp3",
+    "spotifyId": "04hnP3dyL9FGmMlrdyvHi8",
+    "spotifyUrl": "https://open.spotify.com/track/04hnP3dyL9FGmMlrdyvHi8"
+  },
+  {
+    "nome": "MT - DE CIMA DA LAJE NÓS MONITORA (DJ MURILIN) TERROR DO ES 027",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/MT - DE CIMA DA LAJE NÓS MONITORA (DJ MURILIN) TERROR DO ES 027.mp3"
+  },
+  {
+    "nome": "mulherdoano",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/mulherdoano.mp3"
+  },
+  {
+    "nome": "neverloseme",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/neverloseme.mp3"
+  },
+  {
+    "nome": "New Woman (feat. ROSALÍA)",
+    "artista": "LISA, ROSALÍA",
+    "album": "Alter Ego",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27395ce3d848f4e452489d4a12c",
+    "arquivo": "./Músicas/newwoman.mp3",
+    "spotifyId": "5UmfBGfRJgjZ8CdhgffabQ",
+    "spotifyUrl": "https://open.spotify.com/track/5UmfBGfRJgjZ8CdhgffabQ"
+  },
+  {
+    "nome": "Obsessed",
+    "artista": "Mariah Carey",
+    "album": "Memoirs of an imperfect Angel (International Version)",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2736ff3f8fd7540eb7447dae564",
+    "arquivo": "./Músicas/obsessed.mp3",
+    "spotifyId": "5EGPf0nqO7vEIwsOX6Er98",
+    "spotifyUrl": "https://open.spotify.com/track/5EGPf0nqO7vEIwsOX6Er98"
+  },
+  {
+    "nome": "OLHA O BARULHÃO DA TRANS＊ - PLOC PLOC - MC BN E MC VUK VUK (DJ PATRICK R)",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/OLHA O BARULHÃO DA TRANS＊ - PLOC PLOC - MC BN E MC VUK VUK (DJ PATRICK R).mp3"
+  },
+  {
+    "nome": "P.I.T.T.Y. (Parecendo Uma Cafetina)",
+    "artista": "NandaTsunami, Stick, Bvga Beatz, Torelli",
+    "album": "P.I.T.T.Y. (Parecendo Uma Cafetina)",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2735729faf96431459c2750896f",
+    "arquivo": "./Músicas/P.I.T.T.Y. (Parecendo Uma Cafetina) (prod. Stick, Torelli e Bvga Beatz).mp3",
+    "spotifyId": "5L0d4gFfxGNITmevcFfHnA",
+    "spotifyUrl": "https://open.spotify.com/track/5L0d4gFfxGNITmevcFfHnA"
+  },
+  {
+    "nome": "Pantera",
+    "artista": "MC Jvila, G.A, Nagalli, Toledo, Honaiser",
+    "album": "Pantera",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2731d39679546cd30b9f21d0236",
+    "arquivo": "./Músicas/pantera.mp3",
+    "spotifyId": "6xgf2Nigvj0JuyNFFDAG7t",
+    "spotifyUrl": "https://open.spotify.com/track/6xgf2Nigvj0JuyNFFDAG7t"
+  },
+  {
+    "nome": "Papin",
+    "artista": "MC Kevin o Chris, MC Caja",
+    "album": "Tamborzão Raiz",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273871aeb865528b8ea4f721b15",
+    "arquivo": "./Músicas/papin.mp3",
+    "spotifyId": "3khLpwuyIjEOw8vfJ1oUIT",
+    "spotifyUrl": "https://open.spotify.com/track/3khLpwuyIjEOw8vfJ1oUIT"
+  },
+  {
+    "nome": "pensamentosintrissivos",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/pensamentosintrissivos.mp3"
+  },
+  {
+    "nome": "pisca2vezes",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/pisca2vezes.mp3"
+  },
+  {
+    "nome": "Poesia Acústica13",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/Poesia Acústica13.mp3"
+  },
+  {
+    "nome": "PORÁI",
+    "artista": "Juanicar",
+    "album": "PORÁI",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273c814cdfca6da1aca55590d7a",
+    "arquivo": "./Músicas/porai.mp3",
+    "spotifyId": "0m6UUFT0cUqky2b3zUnf0J",
+    "spotifyUrl": "https://open.spotify.com/track/0m6UUFT0cUqky2b3zUnf0J"
+  },
+  {
+    "nome": "primeirodemaio",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/primeirodemaio.mp3"
+  },
+  {
+    "nome": "putamexicana",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/putamexicana.mp3"
+  },
+  {
+    "nome": "qunadoeumorrer",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/qunadoeumorrer.mp3"
+  },
+  {
+    "nome": "raianhadosfaixapreta",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/raianhadosfaixapreta.mp3"
+  },
+  {
+    "nome": "Raspadinha, Limpinha, Vem pro Baile do Bega",
+    "artista": "DJ TITÍ OFICIAL, Dj Bruninho Pzs, Mc Aleff",
+    "album": "Raspadinha, Limpinha, Vem pro Baile do Bega",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2732fff7b023d95fce7b8d5dbd3",
+    "arquivo": "./Músicas/RASPADINHA, LIMPINHA VEM PRO BAILE DO BEGA - MC Alef ( DJ Bruninho PZS, DJ Titi .mp3",
+    "spotifyId": "78TQrei49j9c6QBgu4mJ3A",
+    "spotifyUrl": "https://open.spotify.com/track/78TQrei49j9c6QBgu4mJ3A"
+  },
+  {
+    "nome": "recadinnoespelho",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/recadinnoespelho.mp3"
+  },
+  {
+    "nome": "Rules",
+    "artista": "Doja Cat",
+    "album": "Hot Pink",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273d0bbfea6226b5c3707de92ed",
+    "arquivo": "./Músicas/rules.mp3",
+    "spotifyId": "1TMWcbxL5YF8rKsFHv5hAP",
+    "spotifyUrl": "https://open.spotify.com/track/1TMWcbxL5YF8rKsFHv5hAP"
+  },
+  {
+    "nome": "semaliançanodedo",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/semaliançanodedo.mp3"
+  },
+  {
+    "nome": "#Semquererpá",
+    "artista": "Leonardo Lanoux",
+    "album": "Respect The Legacy",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273009c738e0316873d59a9b19d",
+    "arquivo": "./Músicas/semquere.mp3",
+    "spotifyId": "0XcyBAcsCizzVg0d79Yfk6",
+    "spotifyUrl": "https://open.spotify.com/track/0XcyBAcsCizzVg0d79Yfk6"
+  },
+  {
+    "nome": "SENTA E KIKA NA CASSETA, PAU NO C PAU NA BCT",
+    "artista": "Dj Eryy Detona",
+    "album": "SENTA E KIKA NA CASSETA, PAU NO C PAU NA BCT",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27376a8d2f24301463d23bbb5af",
+    "arquivo": "./Músicas/SENTA E KIKA NA CASSETA, PAU NO C PAU NA BCT.mp3",
+    "spotifyId": "2xd1PJ46lFxlcu4y9H9Fz3",
+    "spotifyUrl": "https://open.spotify.com/track/2xd1PJ46lFxlcu4y9H9Fz3"
+  },
+  {
+    "nome": "SeoulCity너무나도차가워",
+    "artista": "Payx",
+    "album": "SeoulCity너무나도차가워",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2731f6a22c46d37fa0590f3b43c",
+    "arquivo": "./Músicas/seoulcity.mp3",
+    "spotifyId": "5OMOvwXzQjK26Jodj7CnY4",
+    "spotifyUrl": "https://open.spotify.com/track/5OMOvwXzQjK26Jodj7CnY4"
+  },
+  {
+    "nome": "SIMSALABIM - MÁGICA KÁ RABA (Funk 24por48) Cacau Chuu, Gordinho Bolado, MC Gimen",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/SIMSALABIM - MÁGICA KÁ RABA (Funk 24por48) Cacau Chuu, Gordinho Bolado, MC Gimen.mp3"
+  },
+  {
+    "nome": "sodeposidocarnaval",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/sodeposidocarnaval.mp3"
+  },
+  {
+    "nome": "souma",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/souma.mp3"
+  },
+  {
+    "nome": "soumusadoverao",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/soumusadoverao.mp3"
+  },
+  {
+    "nome": "Surreal",
+    "artista": "Luísa Sonza, Baco Exu do Blues",
+    "album": "Escândalo Íntimo",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2734de4413f1a99df1caf84dbbd",
+    "arquivo": "./Músicas/surreal.mp3",
+    "spotifyId": "1dv8qeBPtLAli7J3xNeTDR",
+    "spotifyUrl": "https://open.spotify.com/track/1dv8qeBPtLAli7J3xNeTDR"
+  },
+  {
+    "nome": "Surtada",
+    "artista": "Mc Luanna, Marcos Beatman, Mello Santana, Mc Jhonks",
+    "album": "44",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273a3b77d2c157fe775b7eaaaa1",
+    "arquivo": "./Músicas/surtada.mp3",
+    "spotifyId": "6cQFVZockgtcQRzwp2vWlt",
+    "spotifyUrl": "https://open.spotify.com/track/6cQFVZockgtcQRzwp2vWlt"
+  },
+  {
+    "nome": "SWINGZADA DO CHAPADÃO",
+    "artista": "DJ WANKA, DJ CL SANTOS",
+    "album": "SWINGZADA DO CHAPADÃO",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2738068b018567666e93bbbda7e",
+    "arquivo": "./Músicas/swin.mp3",
+    "spotifyId": "1eVLyihwiPOaC0kDZKbnWu",
+    "spotifyUrl": "https://open.spotify.com/track/1eVLyihwiPOaC0kDZKbnWu"
+  },
+  {
+    "nome": "Talk",
+    "artista": "Retronaut, Salvatore Ganacci",
+    "album": "Talk",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2736f79e566736f9af6606f8680",
+    "arquivo": "./Músicas/Talk.mp3",
+    "spotifyId": "3zOgfB6xNtU0vaV38kthWk",
+    "spotifyUrl": "https://open.spotify.com/track/3zOgfB6xNtU0vaV38kthWk"
+  },
+  {
+    "nome": "TDAH",
+    "artista": "Derek, Emilly Guedes",
+    "album": "TDAH",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733610650aa5ddbe5313b62e48",
+    "arquivo": "./Músicas/tdah.mp3",
+    "spotifyId": "6nUcouNYbKy0a0nJDgsoRj",
+    "spotifyUrl": "https://open.spotify.com/track/6nUcouNYbKy0a0nJDgsoRj"
+  },
+  {
+    "nome": "thotsshit",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/thotsshit.mp3"
+  },
+  {
+    "nome": "Trabalhosa",
+    "artista": "Mc Luanna, Mello Santana, Greezy",
+    "album": "Fração 3/4",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273323d82f80d028dfee6e92b29",
+    "arquivo": "./Músicas/trabalhosa.mp3",
+    "spotifyId": "36NzzUckVlKlfpvM1UQEor",
+    "spotifyUrl": "https://open.spotify.com/track/36NzzUckVlKlfpvM1UQEor"
+  },
+  {
+    "nome": "turmadaduq",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/turmadaduq.mp3"
+  },
+  {
+    "nome": "VAI DJ NPC SOCA COM VONTADE / MACHUCA MACHUCA",
+    "artista": "DJ NpcSize, Mc Larissa",
+    "album": "VAI DJ NPC SOCA COM VONTADE / MACHUCA MACHUCA",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27353a6eac61a35e0780bc221ea",
+    "arquivo": "./Músicas/VAI DJ NPC SOCA COM VONTADE ⧸ MACHUCA MACHUCA - MC Larissa ( DJ NpcSize ).mp3",
+    "spotifyId": "3qV8bXiqsR35JEMOy0tpJv",
+    "spotifyUrl": "https://open.spotify.com/track/3qV8bXiqsR35JEMOy0tpJv"
+  },
+  {
+    "nome": "VAI ME MACHUCA VAI ME EMPURRA ｜ SLOWED ｜ 🔥",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/VAI ME MACHUCA VAI ME EMPURRA ｜ SLOWED ｜ 🔥.mp3"
+  },
+  {
+    "nome": "vemgustavo",
+    "artista": "",
+    "album": "",
+    "capa": "",
+    "arquivo": "./Músicas/vemgustavo.mp3"
+  },
+  {
+    "nome": "Zen",
+    "artista": "Anitta",
+    "album": "Anitta",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273b1bd3ec4ceb6f5ffbf3a7de7",
+    "arquivo": "./Músicas/zen.mp3",
+    "spotifyId": "1aUUrBmdIYN7FvIzHdpisn",
+    "spotifyUrl": "https://open.spotify.com/track/1aUUrBmdIYN7FvIzHdpisn"
+  }
+]

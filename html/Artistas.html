@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotfy/Artistas</title>
+    <link rel="stylesheet" href="../css/artistas.css" />
+    <link rel="preconnect" href="https://googleapis.com" />
+    <link rel="preconnect" href="https://gstatic.com" crossorigin />
+    <link
+      href="https://googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="../logo.png" alt="" class="logo2" />
+      <button id="bnt-out" class="bnt-out">Sair</button>
+    </header>
+    <main>
+      <h1>Escolha seus Favoritos</h1>
+      <p>Escolha no mínimo 3 artistas que você ama!!!</p>
+
+      <div id="pesquisar" class="pesquisar">
+        <input
+          type="text"
+          id="busca"
+          class="buscar"
+          placeholder="Pesquise seu artista"
+        />
+        <button id="buscar" class="buscar" onclick="buscar">Pesquisar</button>
+      </div>
+
+      <div id="artistas" class="artistas">
+        <div class="artista" data-name="Bruno Mars">
+          <img src="../Artistas/Bruno-Mars.webp" alt="" />
+          <h2>Bruno Mars</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="Rihanna">
+          <img src="../Artistas/Rihanna.avif" alt="" />
+          <h2>Rihanna</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="Justin Bieber">
+          <img src="../Artistas/justn-bieber.webp" alt="" />
+          <h2>Justin Bieber</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="The Weeknd">
+          <img src="../Artistas/Reprodução-Instagram-The-weeknd.png" alt="" />
+          <h2>The Weeknd</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="Taylor Swift">
+          <img src="../Artistas/taylor.webp" alt="" />
+          <h2>Taylor Swift</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="eminem">
+          <img src="../Artistas/Eminem.jpg" alt="" />
+          <h2>Eminem</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="Ariana Grande">
+          <img src="../Artistas/ariana-grande.avif" alt="" />
+          <h2>Ariana Grande</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="Bad Bunny">
+          <img src="../Artistas/bad-bunny-1.jpg" alt="" />
+          <h2>Bad Bunny</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="Grupo Menos É Mais">
+          <img src="../Artistas/menos-é-mais.png" alt="" />
+          <h2>Grupo Menos É Mais</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="Livinho">
+          <img src="" alt="" />
+          <h2>Livinho</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="Seu Jorge">
+          <img src="../Artistas/seujorgefabionunes.webp" alt="" />
+          <h2>Seu Jorge</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="Coldplay">
+          <img src="../Artistas/coldplay.webp" alt="" />
+          <h2>Coldplay</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="Dua Lipa">
+          <img src="../Artistas/dua-lipa.jpg" alt="" />
+          <h2>Dua Lipa</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="bts">
+          <img src="../Artistas/bts.jpg" alt="" />
+          <h2>BTS</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="Maroon 5">
+          <img src="../Artistas/Maroon5.webp" alt="" />
+          <h2>Maroon 5</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+
+        <div class="artista" data-name="Luísa Sonza">
+          <img src="../Artistas/Luisa-Sonza.jpg" alt="" />
+          <h2>Luísa Sonza</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div> 
+
+        <div class="artista" data-name="Anitta">
+          <img src="../Artistas/anita.jpg" alt="" />
+          <h2>Anitta</h2>
+          <button id="bnt-adc" class="bnt-adc" onclick="adicionar">
+            Adicionar
+          </button>
+        </div>
+      </div>
+
+      <p id="selecionados">0 Artista selecionador</p>
+
+      <button id="continue" class="continue">Continuar</button>
+    </main>
+
+    <script type="module" src="../js/main.js"></script>
+  </body>
+</html>

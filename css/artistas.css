@@ -1,0 +1,463 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    min-height: 100vh;
+
+    background: linear-gradient(180deg, #121212 0%, #000000 100%);
+
+    color: white;
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+/* HEADER */
+
+body {
+    display: block !important;
+}
+
+header {
+    display: flex !important;
+    width: 100% !important;
+    height: 75px;
+    flex-direction: row !important;
+}
+
+header {
+    width: 100% !important;
+    height: 75px;
+
+    display: flex !important;
+    flex-direction: row !important;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 45px;
+
+    background: #000;
+
+    border-bottom: 1px solid #222;
+
+    position: relative;
+    z-index: 1000;
+}
+
+.logo2 {
+    width: 115px;
+}
+
+.bnt-out {
+    background: transparent;
+    border: 1px solid #777;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.bnt-out:hover {
+    border-color: white;
+    transform: scale(1.04);
+}
+
+/* MAIN */
+
+main {
+
+    width: 100%;
+
+    max-width: 1150px;
+
+    margin: auto;
+
+    padding: 45px 30px 50px;
+
+}
+
+/* TÍTULO */
+
+h1 {
+
+    font-size: 34px;
+
+    font-weight: 800;
+
+    margin-bottom: 10px;
+
+}
+
+main > p {
+
+    color: #b3b3b3;
+
+    font-size: 15px;
+
+    margin-bottom: 30px;
+
+}
+
+/* PESQUISA */
+
+.pesquisar {
+
+    width: 100%;
+
+    max-width: 600px;
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-bottom: 40px;
+
+}
+
+.buscar[type="text"] {
+
+    flex: 1;
+
+    height: 48px;
+
+    background: #242424;
+
+    border: 1px solid #444;
+
+    border-radius: 25px;
+
+    padding: 0 20px;
+
+    color: white;
+
+    font-size: 14px;
+
+    outline: none;
+
+}
+
+.buscar[type="text"]::placeholder {
+
+    color: #a7a7a7;
+
+}
+
+.buscar[type="text"]:focus {
+
+    border-color: white;
+
+    background: #2a2a2a;
+
+}
+
+button*.buscar* {
+
+    height: 48px;
+
+    padding: 0 22px;
+
+    border: none;
+
+    border-radius: 25px;
+
+    background: #1ed760;
+
+    color: #000;
+
+    font-weight: 800;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+button*.buscar:hover* {
+
+    background: #1fdf64;
+
+    transform: scale(1.04);
+
+}
+
+/* ARTISTAS */
+
+.artistas {
+
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 35px 25px;
+
+}
+
+/* CARD */
+
+.artista {
+
+    position: relative;
+
+    text-align: center;
+
+    padding: 10px;
+
+    border-radius: 12px;
+
+    transition: 0.25s;
+
+    cursor: pointer;
+
+}
+
+.artista:hover {
+
+    background: #181818;
+
+    transform: translateY(-4px);
+
+}
+
+/* FOTO DO ARTISTA */
+
+.artista img {
+
+    width: 150px;
+
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    display: block;
+
+    margin: 0 auto 15px;
+
+    border: 3px solid transparent;
+
+    transition: 0.25s;
+
+}
+
+/* NOME */
+
+.artista h2 {
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    color: #fff;
+
+    margin-bottom: 12px;
+
+}
+
+/* BOTÃO ADICIONAR */
+
+.bnt-adc {
+
+    border: 1px solid #777;
+
+    background: transparent;
+
+    color: white;
+
+    padding: 8px 18px;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+.bnt-adc:hover {
+
+    border-color: white;
+
+    transform: scale(1.05);
+
+}
+
+/* QUANDO O ARTISTA FOR SELECIONADO */
+
+.artista.selecionado {
+
+    background: #181818;
+
+}
+
+.artista.selecionado img {
+
+    border-color: #1ed760;
+
+    box-shadow: 0 0 0 4px rgba(30, 215, 96, 0.15);
+
+}
+
+.artista.selecionado .bnt-adc {
+
+    background: #1ed760;
+
+    border-color: #1ed760;
+
+    color: #000;
+
+}
+
+.artista.selecionado .bnt-adc::after {
+
+    content: " ✓";
+
+}
+
+/* CONTADOR */
+
+#selecionados {
+
+    text-align: center;
+
+    color: #b3b3b3;
+
+    margin-top: 45px;
+
+    margin-bottom: 18px;
+
+    font-size: 14px;
+
+}
+
+/* BOTÃO CONTINUAR */
+
+.continue {
+
+    display: block;
+
+    margin: auto;
+
+    background: #1ed760;
+
+    border: none;
+
+    color: #000;
+
+    padding: 13px 32px;
+
+    border-radius: 25px;
+
+    font-size: 15px;
+
+    font-weight: 800;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+.continue:hover {
+
+    background: #1fdf64;
+
+    transform: scale(1.05);
+
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 1000px) {
+
+    .artistas {
+
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    header {
+
+        padding: 0 20px;
+
+    }
+
+    main {
+
+        padding: 35px 20px;
+
+    }
+
+    h1 {
+
+        font-size: 28px;
+
+    }
+
+    .artistas {
+
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 25px 15px;
+
+    }
+
+    .artista img {
+
+        width: 120px;
+
+        height: 120px;
+
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .artistas {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .artista img {
+
+        width: 115px;
+
+        height: 115px;
+
+    }
+
+    .pesquisar {
+
+        flex-direction: column;
+
+    }
+
+    button*.buscar* {
+
+        width: 100%;
+
+    }
+
+}

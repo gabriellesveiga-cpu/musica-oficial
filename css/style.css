@@ -1,0 +1,1115 @@
+/* ==========================================================
+   RESET
+========================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    overflow: hidden;
+}
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 0 22px;
+    background: #000;
+    position: relative;
+    z-index: 1000;
+}
+
+.logo2 {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.inicio {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px 14px;
+    border-radius: 20px;
+    transition: background 0.2s ease;
+}
+
+.inicio:hover {
+    background: #1f1f1f;
+}
+
+/* ==========================================================
+   PESQUISA
+========================================================== */
+
+header .pesquisar {
+    width: 420px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    background: #242424;
+    border-radius: 25px;
+    position: relative;
+    overflow: visible;
+    transition: outline 0.2s ease;
+}
+
+header .pesquisar:focus-within {
+    outline: 2px solid #555;
+}
+
+header input.buscar {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    padding: 0 15px 0 18px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+header input.buscar::placeholder {
+    color: #a7a7a7;
+}
+
+header button.buscar {
+    height: 35px;
+    margin-right: 5px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 20px;
+    background: #fff;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: transform 0.15s ease, background 0.15s ease;
+}
+
+header button.buscar:hover {
+    transform: scale(1.03);
+    background: #e8e8e8;
+}
+
+/* ==========================================================
+   RESULTADOS DA PESQUISA
+========================================================== */
+
+#resultadosPesquisa {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    width: 100%;
+    max-height: 420px;
+    overflow-y: auto;
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    padding: 8px;
+    background: #181818;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+#resultadosPesquisa.ativo {
+    display: flex;
+}
+
+#resultadosPesquisa:empty {
+    display: none !important;
+}
+
+#resultadosPesquisa::-webkit-scrollbar {
+    width: 6px;
+}
+
+#resultadosPesquisa::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+}
+
+#resultadosPesquisa .resultado-pesquisa {
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px;
+    border-radius: 7px;
+    background: transparent;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+#resultadosPesquisa .resultado-pesquisa:hover {
+    background: #2a2a2a;
+}
+
+#resultadosPesquisa .resultado-pesquisa img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+#resultadosPesquisa .resultado-pesquisa .info-pesquisa {
+    min-width: 0;
+    overflow: hidden;
+}
+
+#resultadosPesquisa .resultado-pesquisa .nome-pesquisa {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#resultadosPesquisa .resultado-pesquisa .artista-pesquisa {
+    margin-top: 3px;
+    color: #a7a7a7;
+    font-size: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ==========================================================
+   USUÁRIO
+========================================================== */
+
+.user {
+    width: 38px;
+    height: 38px;
+    margin-left: auto;
+    border: none;
+    border-radius: 50%;
+    background: #242424;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.user:hover {
+    background: #333;
+}
+
+/* ==========================================================
+   ÁREA PRINCIPAL
+========================================================== */
+
+main {
+    width: 100%;
+    height: calc(100vh - 75px);
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr) 320px;
+    gap: 8px;
+    padding: 0 8px 8px;
+    overflow: hidden;
+}
+
+.div1,
+.div2,
+.div3 {
+    height: 100%;
+    min-width: 0;
+    background: #121212;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.div1 {
+    padding: 22px 18px;
+    overflow-y: auto;
+}
+
+.div2 {
+    padding: 25px;
+    overflow-y: auto;
+}
+
+.div3 {
+    padding: 22px;
+    overflow-y: auto;
+}
+
+/* ==========================================================
+   SCROLLBARS
+========================================================== */
+
+.div1::-webkit-scrollbar,
+.div2::-webkit-scrollbar,
+.div3::-webkit-scrollbar {
+    width: 7px;
+}
+
+.div1::-webkit-scrollbar-thumb,
+.div2::-webkit-scrollbar-thumb,
+.div3::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 10px;
+}
+
+.div1::-webkit-scrollbar-track,
+.div2::-webkit-scrollbar-track,
+.div3::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* ==========================================================
+   BIBLIOTECA
+========================================================== */
+
+.Biblioteca {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.Biblioteca h3 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.criar,
+.btn-criar {
+    border: none;
+    background: transparent;
+    color: #a7a7a7;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.criar:hover,
+.btn-criar:hover {
+    color: #fff;
+}
+
+/* ==========================================================
+   PLAYLISTS
+========================================================== */
+
+.area-playlists {
+    width: 100%;
+}
+
+.titulo-playlists {
+    margin-bottom: 12px;
+}
+
+.titulo-playlists h2 {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.lista-playlists {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.lista-playlists > div {
+    width: 100%;
+}
+
+/* ==========================================================
+   FILTROS
+========================================================== */
+
+#flitro,
+#filtro {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 22px;
+}
+
+#flitro button,
+#filtro button {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: #292929;
+    color: #fff;
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+#flitro button:hover,
+#filtro button:hover {
+    background: #3a3a3a;
+}
+
+/* ==========================================================
+   MÚSICAS PRINCIPAIS
+========================================================== */
+
+#musicas {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 18px;
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+#musicas .card-musica {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    border-radius: 8px;
+    background: transparent;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+#musicas .card-musica:hover {
+    background: #1f1f1f;
+}
+
+#musicas .card-musica .capa-musica {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    display: block;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+#musicas .card-musica .info-musica {
+    width: 100%;
+    min-width: 0;
+}
+
+#musicas .card-musica .nome-musica {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#musicas .card-musica .nome-artista {
+    margin-top: 4px;
+    color: #a7a7a7;
+    font-size: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ==========================================================
+   CARDS GENÉRICOS
+========================================================== */
+
+.cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 18px;
+}
+
+.card {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.card:hover {
+    background: #1f1f1f;
+}
+
+/* ==========================================================
+   FEITO PARA VOCÊ
+========================================================== */
+
+.recomendacoes-artistas {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.titulo-recomendacoes {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.titulo-recomendacoes h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.titulo-recomendacoes p {
+    margin-top: 5px;
+    color: #a7a7a7;
+    font-size: 12px;
+}
+
+.lista-recomendacoes {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+}
+
+.lista-recomendacoes::-webkit-scrollbar {
+    height: 6px;
+}
+
+.lista-recomendacoes::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 10px;
+}
+
+.card-recomendacao {
+    width: 155px;
+    min-width: 155px;
+    padding: 10px;
+    border-radius: 8px;
+    background: transparent;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.card-recomendacao:hover {
+    background: #1f1f1f;
+}
+
+.card-recomendacao img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+    margin-bottom: 9px;
+}
+
+.card-recomendacao .nome-musica {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-recomendacao .nome-artista {
+    margin-top: 4px;
+    color: #a7a7a7;
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ==========================================================
+   PLAYLIST DO USUÁRIO
+========================================================== */
+
+#userPlaylist {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.userPlaylist {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.userPlaylist:hover {
+    background: #1f1f1f;
+}
+
+/* ==========================================================
+   SEÇÃO DE MÚSICAS RECENTES
+========================================================== */
+
+.secao {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.Recentes {
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.Recentes h3 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+/* ==========================================================
+   HISTÓRICO
+========================================================== */
+
+#historicoMusicas {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    overflow-x: auto;
+    padding: 3px 0 10px;
+}
+
+#historicoMusicas::-webkit-scrollbar {
+    height: 6px;
+}
+
+#historicoMusicas::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 10px;
+}
+
+#historicoMusicas .item-historico {
+    width: 72px;
+    min-width: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#historicoMusicas .item-historico:hover {
+    transform: translateY(-3px);
+}
+
+#historicoMusicas .item-historico img {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+}
+
+#historicoMusicas .item-historico p {
+    width: 100%;
+    margin-top: 6px;
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ==========================================================
+   PLAYER
+========================================================== */
+
+.ouvindo {
+    width: 100%;
+}
+
+#ouvindo {
+    width: 100%;
+}
+
+#ouvindo > h3 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.player {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.infos-msc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player img,
+#capaMusica {
+    width: 100%;
+    max-width: 275px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.infos-msc .dados {
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.infos-msc .dados h3,
+.infos-msc h3 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 800;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.infos-msc .dados p,
+.infos-msc p {
+    margin-top: 5px;
+    color: #a7a7a7;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.infos-msc .dados span,
+.infos-msc span {
+    display: block;
+    margin-top: 5px;
+    color: #777;
+    font-size: 10px;
+}
+
+/* ==========================================================
+   CONTROLES
+========================================================== */
+
+.controle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.controle button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.controle button:hover {
+    background: #242424;
+    transform: scale(1.05);
+}
+
+.controle .bnt-play {
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    color: #000;
+}
+
+.controle .bnt-play:hover {
+    background: #fff;
+    transform: scale(1.08);
+}
+
+/* ==========================================================
+   ÍCONES DOS CONTROLES
+========================================================== */
+
+#aletorio::before,
+#anterior::before,
+#play::before,
+#proxima::before,
+#repetir::before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: currentColor;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+}
+
+#aletorio::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M16 3h5v5h-2V6.41l-4.29 4.3-1.42-1.42L17.59 5H16V3ZM4 5h3.59l10.7 10.7L17 17.99 6.59 7H4V5Zm12 12h1.59l-3.3-3.3 1.42-1.42L21 18.59V17h2v5h-5v-2Z'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M16 3h5v5h-2V6.41l-4.29 4.3-1.42-1.42L17.59 5H16V3ZM4 5h3.59l10.7 10.7L17 17.99 6.59 7H4V5Zm12 12h1.59l-3.3-3.3 1.42-1.42L21 18.59V17h2v5h-5v-2Z'/%3E%3C/svg%3E");
+}
+
+#anterior::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M6 5h2v14H6V5Zm3 7 9-7v14l-9-7Z'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M6 5h2v14H6V5Zm3 7 9-7v14l-9-7Z'/%3E%3C/svg%3E");
+}
+
+#play::before {
+    width: 19px;
+    height: 19px;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M8 5v14l11-7L8 5Z'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M8 5v14l11-7L8 5Z'/%3E%3C/svg%3E");
+}
+
+#play.pausado::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M6 5h4v14H6V5Zm8 0h4v14h-4V5Z'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M6 5h4v14H6V5Zm8 0h4v14h-4V5Z'/%3E%3C/svg%3E");
+}
+
+#proxima::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M16 5h2v14h-2V5Zm-9 0 9 7-9 7V5Z'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M16 5h2v14h-2V5Zm-9 0 9 7-9 7V5Z'/%3E%3C/svg%3E");
+}
+
+#repetir::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M7 7h9.17L14.59 5.41 16 4l4 4-4 4-1.41-1.41L16.17 9H7v4H5V7h2Zm10 10H7.83l1.58 1.59L8 20l-4-4 4-4 1.41 1.41L7.83 15H17v-4h2v6h-2v1Z'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M7 7h9.17L14.59 5.41 16 4l4 4-4 4-1.41-1.41L16.17 9H7v4H5V7h2Zm10 10H7.83l1.58 1.59L8 20l4-4 4 4-1.41 1.41L16.17 19H7v-4h2v2h8v-2Z'/%3E%3C/svg%3E");
+}
+
+#aletorio.ativo,
+#repetir.ativo {
+    color: #1db954;
+}
+
+/* ==========================================================
+   PROGRESSO
+========================================================== */
+
+.progresso {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.progresso span {
+    color: #a7a7a7;
+    font-size: 10px;
+    min-width: 30px;
+}
+
+.progresso span:last-child {
+    text-align: right;
+}
+
+#barraProgresso {
+    flex: 1;
+    height: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    background: #535353;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+#barraProgresso::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+#barraProgresso:hover::-webkit-slider-thumb {
+    opacity: 1;
+}
+
+#barraProgresso::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+/* ==========================================================
+   MODAIS
+========================================================== */
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 10000;
+}
+
+.modal-overlay.aberto {
+    display: flex;
+}
+
+.modal-playlist {
+    width: 380px;
+    max-width: calc(100vw - 30px);
+    max-height: 85vh;
+    overflow-y: auto;
+    padding: 28px;
+    background: #181818;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.6);
+}
+
+.modal-playlist h2 {
+    color: #fff;
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+.modal-playlist p {
+    color: #a7a7a7;
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+.fechar-modal {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#nomePlaylist {
+    width: 100%;
+    height: 42px;
+    padding: 0 13px;
+    border: 1px solid #555;
+    border-radius: 6px;
+    outline: none;
+    background: #242424;
+    color: #fff;
+    font-family: inherit;
+    font-size: 13px;
+}
+
+#nomePlaylist:focus {
+    border-color: #fff;
+}
+
+.btn-salvar-playlist {
+    width: 100%;
+    height: 42px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 22px;
+    background: #fff;
+    color: #000;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btn-salvar-playlist:hover {
+    background: #e7e7e7;
+}
+
+/* ==========================================================
+   PLAYLIST ABERTA
+========================================================== */
+
+#modalPlaylist .modal-playlist {
+    width: 650px;
+}
+
+#musicasDisponiveis {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 15px;
+}
+
+.lista-musicas-disponiveis {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.musica-disponivel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    border-radius: 7px;
+    background: #222;
+}
+
+.musica-disponivel img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.musica-disponivel .info-musica {
+    flex: 1;
+    min-width: 0;
+}
+
+.musica-disponivel .info-musica h4 {
+    color: #fff;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.musica-disponivel .info-musica p {
+    margin-top: 3px;
+    color: #a7a7a7;
+    font-size: 10px;
+}
+
+.musica-disponivel .btn-adicionar-musica {
+    border: none;
+    padding: 7px 12px;
+    border-radius: 20px;
+    background: #fff;
+    color: #000;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.musica-disponivel button:hover {
+    background: #ddd;
+}
+
+.musica-adicionada {
+    opacity: 0.55;
+}
+
+/* ==========================================================
+   RESPONSIVIDADE
+========================================================== */
+
+@media (max-width: 1100px) {
+    main {
+        grid-template-columns: 230px minmax(0, 1fr) 280px;
+    }
+
+    header .pesquisar {
+        width: 350px;
+    }
+}
+
+@media (max-width: 850px) {
+    main {
+        grid-template-columns: 210px minmax(0, 1fr);
+    }
+
+    .div3 {
+        display: none;
+    }
+
+    header .pesquisar {
+        width: 320px;
+    }
+}
+
+@media (max-width: 650px) {
+    header {
+        padding: 0 12px;
+        gap: 8px;
+    }
+
+    header .pesquisar {
+        width: 100%;
+        max-width: none;
+    }
+
+    .inicio {
+        display: none;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+        padding: 0 5px 5px;
+    }
+
+    .div1 {
+        display: none;
+    }
+
+    .div2 {
+        padding: 18px;
+    }
+
+    #musicas {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+}

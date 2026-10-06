@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spotfy</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header>
+
+        <img
+            src="../logo.png"
+            alt="Spotfy"
+            class="logo2"
+        >
+
+        <button
+            id="inicio"
+            class="inicio"
+            type="button"
+        >
+            início
+        </button>
+
+        <!-- PESQUISA -->
+
+        <div
+            id="pesquisar"
+            class="pesquisar"
+        >
+
+            <input
+                type="text"
+                id="busca"
+                class="buscar"
+                placeholder="Pesquise seu artista"
+                autocomplete="off"
+            >
+
+            <button
+                id="buscar"
+                class="buscar"
+                type="button"
+            >
+                Pesquisar
+            </button>
+
+            <!-- RESULTADOS DA PESQUISA -->
+
+            <div
+                id="resultadosPesquisa"
+                class="resultados-pesquisa"
+            ></div>
+
+        </div>
+
+        <button
+            id="user"
+            class="user"
+            type="button"
+            aria-label="Usuário"
+        ></button>
+
+    </header>
+
+
+    <!-- =====================================================
+         CONTEÚDO PRINCIPAL
+    ====================================================== -->
+
+    <main>
+
+        <!-- =================================================
+             COLUNA ESQUERDA
+        ================================================== -->
+
+        <div
+            id="div1"
+            class="div1"
+        >
+
+            <!-- BIBLIOTECA -->
+
+            <div
+                id="Biblioteca"
+                class="Biblioteca"
+            >
+
+                <h3>Sua Biblioteca</h3>
+
+                <button
+                    id="btnCriarPlaylist"
+                    class="btn-criar"
+                    type="button"
+                >
+                    + Criar
+                </button>
+
+            </div>
+
+
+            <!-- PLAYLISTS -->
+
+            <section class="area-playlists">
+
+                <div class="titulo-playlists">
+
+                    <h2>Suas playlists</h2>
+
+                </div>
+
+                <div
+                    id="listaPlaylists"
+                    class="lista-playlists"
+                >
+                    <!-- Playlists aparecem aqui -->
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 MODAL CRIAR PLAYLIST
+            ================================================== -->
+
+            <div
+                id="modalCriarPlaylist"
+                class="modal-overlay"
+            >
+
+                <div class="modal-playlist">
+
+                    <button
+                        id="fecharModal"
+                        class="fechar-modal"
+                        type="button"
+                    >
+                        ×
+                    </button>
+
+                    <h2>Criar playlist</h2>
+
+                    <p>
+                        Escolha um nome para sua playlist
+                    </p>
+
+                    <input
+                        type="text"
+                        id="nomePlaylist"
+                        placeholder="Nome da playlist"
+                        maxlength="50"
+                    >
+
+                    <button
+                        id="salvarPlaylist"
+                        class="btn-salvar-playlist"
+                        type="button"
+                    >
+                        Salvar
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 MODAL PLAYLIST
+            ================================================== -->
+
+            <div
+                id="modalPlaylist"
+                class="modal-overlay"
+            >
+
+                <div class="modal-playlist playlist-aberta">
+
+                    <button
+                        id="fecharPlaylist"
+                        class="fechar-modal"
+                        type="button"
+                    >
+                        ×
+                    </button>
+
+                    <div id="conteudoPlaylist"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             COLUNA CENTRAL
+        ================================================== -->
+
+        <div
+            id="div2"
+            class="div2"
+        >
+
+            <!-- FILTROS -->
+
+            <div id="flitro">
+
+                <button
+                    type="button"
+                >
+                    Todo
+                </button>
+
+                <button
+                    type="button"
+                >
+                    Músicas
+                </button>
+
+            </div>
+
+
+            <!-- =================================================
+                 TODAS AS MÚSICAS
+            ================================================== -->
+
+            <div
+                id="musicas"
+                class="lista-musicas"
+            >
+                <!-- Músicas carregadas pelo JavaScript -->
+            </div>
+
+
+            <!-- =================================================
+                 FEITO PARA VOCÊ
+            ================================================== -->
+
+            <div
+                id="recomendacoesArtistas"
+                class="recomendacoes-artistas"
+            >
+
+                <div class="titulo-recomendacoes">
+
+                    <h2>Feito para você</h2>
+
+                    <p>
+                        Baseado nos artistas que você escolheu
+                    </p>
+
+                </div>
+
+                <div
+                    id="listaRecomendacoes"
+                    class="lista-recomendacoes"
+                >
+                    <!-- Músicas recomendadas -->
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 PLAYLIST DO USUÁRIO
+            ================================================== -->
+
+            <div
+                id="userPlaylist"
+                class="userPlaylist"
+            ></div>
+
+
+            <!-- =================================================
+                 MÚSICAS RECENTES
+            ================================================== -->
+
+            <section class="secao">
+
+                <div class="Recentes">
+
+                    <h3>
+                        Suas músicas estão com saudade
+                    </h3>
+
+                </div>
+
+                <div
+                    id="historicoMusicas"
+                    class="historico-musicas"
+                >
+                    <!-- Músicas mais ouvidas aparecem aqui -->
+                </div>
+
+            </section>
+
+        </div>
+
+
+        <!-- =================================================
+             COLUNA DIREITA
+        ================================================== -->
+
+        <div
+            id="div3"
+            class="div3"
+        >
+
+            <div id="ouvindo">
+
+                <h3>Ouvindo</h3>
+
+
+                <!-- PLAYER -->
+
+                <footer class="player">
+
+                    <!-- INFORMAÇÕES DA MÚSICA -->
+
+                    <div class="infos-msc">
+
+                        <img
+                            src=""
+                            alt="Capa"
+                            id="capaMusica"
+                        >
+
+                        <div class="dados">
+
+                            <h3 id="nomeMusica"></h3>
+
+                            <p id="artista"></p>
+
+                            <span id="playlists"></span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CONTROLES -->
+
+                    <div class="controle">
+
+                        <button
+                            id="aletorio"
+                            title="Aleatório"
+                            aria-label="Aleatório"
+                            type="button"
+                        ></button>
+
+                        <button
+                            id="anterior"
+                            title="Anterior"
+                            aria-label="Anterior"
+                            type="button"
+                        ></button>
+
+                        <button
+                            id="play"
+                            class="bnt-play"
+                            title="Reproduzir"
+                            aria-label="Reproduzir"
+                            type="button"
+                        ></button>
+
+                        <button
+                            id="proxima"
+                            title="Próxima"
+                            aria-label="Próxima"
+                            type="button"
+                        ></button>
+
+                        <button
+                            id="repetir"
+                            title="Repetir"
+                            aria-label="Repetir"
+                            type="button"
+                        ></button>
+
+                    </div>
+
+
+                    <!-- BARRA DE PROGRESSO -->
+
+                    <div class="progresso">
+
+                        <span id="tempoAtual">
+                            0:00
+                        </span>
+
+                        <input
+                            type="range"
+                            id="barraProgresso"
+                            min="0"
+                            max="100"
+                            value="0"
+                        >
+
+                        <span id="duracao">
+                            0:00
+                        </span>
+
+                    </div>
+
+
+                    <!-- ÁUDIO -->
+
+                    <audio id="audio"></audio>
+
+                </footer>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script
+        type="module"
+        src="../js/site.js"
+    ></script>
+
+</body>
+
+</html>
